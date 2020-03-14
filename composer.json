@@ -6,16 +6,22 @@
     "image",
     "data"
   ],
+  "homepage": "https://github.com/sanskritick/laraocr",
   "description": "Laravel Optical Character Reader(OCR) package using different OCR engines like Tesseract",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "authors": [
     {
       "name": "Vikram Bhaskaran",
-      "email": "vikram@sanskritick.com"
+      "email": "vikram@sanskritick.com",
+      "homepage": "https://sanskritick.com",
+      "role": "developer"
     }
   ],
   "require": {
     "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0|^9.0"
   },
   "autoload": {
     "psr-4": {
@@ -36,8 +42,5 @@
         "OCR": "Sanskritick\\LaraOCR\\Facades\\OCR"
       }
     }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7"
   }
 }
